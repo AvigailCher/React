@@ -10,9 +10,9 @@ export default function ImgGallery()
     const[index,setIndex] = useState(0);
     return(
     <>
-       <button id="left" onClick={ setIndex(index--)}> ← </button>
+       <button id="left" onClick={()=>{if(index>0) setIndex(index-1)}}> ← </button>
        <img src={img[index]}></img>
-       <button id="right" onClick={setIndex(index++)} > → </button>
+       <button id="right" onClick={()=>{if(index<5) setIndex(index+1)}} > → </button>
     </>
     );
 }
