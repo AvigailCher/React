@@ -1,4 +1,11 @@
-[
-    {"title":"home",
-      "txt":"wellcome"}
-]
+{
+    "about":"You are in the page about us",
+    "thanks":"Thank you for joining us",
+    "home":"You are in home page",
+    "services":"You are in the service page",
+    "contact":"contact us",
+    "homePage":"Home page",
+    "contactPage":"Contact us ",
+    "servicePage":"Services",
+    "aboutPage":"about us"
+}
