@@ -8,8 +8,9 @@ import './App.css';
 // import { useTranslation } from 'react-i18next';
 // import ThemeContext from './lesson4/context/ThemeContext';
 // import Chat from './componnent/chat';
-import WithLogging from './componnent/WithLogging';
-import Date from './componnent/Date';
+// import WithLogging from './componnent/WithLogging';
+// import Date from './componnent/Date';
+import UserTable from './lesson9/useMemory';
 // import logo from './logo.svg';
 // import First from "./lesson1/componnets/First"
 // import ImgGallery from './lesson2/componnets/imgesC';
@@ -27,7 +28,7 @@ function App() {
   // const translate=(language)=>{
   //   i18n.changeLanguage(language)
   // }
-  const Withl=WithLogging(Date);
+  // const Withl=WithLogging(Date);
   return (  
     // <ThemeContext.Provider>
     //     <BrowserRouter>
@@ -48,7 +49,8 @@ function App() {
     //     </BrowserRouter>
     //     </ThemeContext.Provider>
     // <Chat></Chat>
-    <Withl date="10/12/24"></Withl>
+    // <Withl date="10/12/24"></Withl>
+    <UserTable></UserTable>
   );
 }
 
